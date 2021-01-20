@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  margin-top: 33px;
+  margin-bottom: 32px;
+}
+.main-nav {
+  display: flex;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul li {
+  list-style-type: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  color: black;
+}
+.nav .btn {
+  padding: 10px;
+  background: #33c68f;
+  color: white;
+  text-decoration: none;
+}
+.menu ul li a:hover {
+  background: #2fd283;
+  border-radius: 5px;
+}
+/* header section end */
+
+/* Hero section start */
+.hero {
+  background: #f8f1f1;
+}
+.midsection {
+  margin-top: 120px;
+}
+.midsection h2 {
+  font-family: "Roboto Slab", serif;
+  color: #2f3350;
+  font-size: 60px;
+}
+.midsection p {
+  font-size: 17px;
+  margin-top: 20px;
+}
+.midsection .btn {
+  margin-top: 18px;
+  border-radius: 16px;
+  padding: 10px;
+  background: #33c68f;
+  color: white;
+}
+.right-site img {
+  width: 800px;
+  height: 900px;
+}
+/* Hero section end */
+
+/* Careeers Section start */
+.Carrer {
+  margin-bottom: 100px;
+  background: #f9f9f9;
+}
+.carrer-heading h2 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 112px;
+}
+.carrer-heading p {
+  margin-top: 45px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 81px;
+}
+.carrers-portfolio h4 {
+  margin-top: 48px;
+}
+.carrers-portfolio p {
+  margin-top: 41px;
+  margin-bottom: 108px;
+}
+/* Careeers Section end */
+
+/* blog Section start */
+
+.blog-main {
+  margin-top: 64px;
+}
+.blog-main h3 {
+  line-height: 28px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.blog-main p {
+  margin-top: 20px;
+}
+/* blog Section end */
+
+/* footer Section start */
+.footer {
+  background: #2d314e;
+  padding-top: 50px;
+  margin-top: 80px;
+}
+.footer-section ul li {
+  list-style-type: none;
+  color: white;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.footer-section2 .btn {
+  color: white;
+  padding: 10px;
+  background: #33c68f;
+  text-decoration: none;
+  border-radius: 12px;
+}
+.footer-section2 p {
+  color: white;
+  padding: 5px;
+}
+.footer-section2 {
+  float: right;
+}
+/* footer Section end */
